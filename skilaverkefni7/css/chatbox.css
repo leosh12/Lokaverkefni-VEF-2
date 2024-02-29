@@ -1,0 +1,21 @@
+.chatbox {
+    width: 20rem;
+    border: 2px solid var(--nc-ac-tx);
+    padding: 1rem;
+    border-radius: 1em;
+}
+
+.chatboxBorder {
+    background-color: var(--nc-fm-bg-1);
+    border-radius: 1em;
+    border: 2px solid var(--nc-ac-tx);
+}
+
+.chatbox input[type="text"],
+.chatbox input[type="email"],
+.chatbox input[type="first name"],
+.chatbox input[type="last name"],
+.chatbox input[type="tel"] {
+    background: var(--nc-bg-1);
+    border: 1px solid var(--nc-fm-1);
+}

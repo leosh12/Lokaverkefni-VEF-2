@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6{
+    display: grid;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.headerFont {
+    color: var(--nc-d-fm-1);
+    font-family: var(--nc-font-log_text);
+}
+
+.headerBorder {
+    border: 2px solid var(--nc-fm-bg-2);
+    padding: 10px;
+    text-align: left;
+    width: 50%;
+}
+
+.font1 {
+    color: var(--nc-fm-bg-1);
+    font-style: var(--nc-font-log_text);
+}
+
+.font2 {
+    color: var(--nc-lk-2);
+    font-style: var(--nc-font-log_text);
+}
+body {
+    background: var(--nc-bg-1);
+}
+
+@media screen and (min-width:48rem) {
+    .col-2, .col-4, .col-6{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        row-gap: 1rem;
+    }
+}
+
+@media screen and (min-width:60rem) {
+    .col-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        row-gap: 1rem;
+    }
+
+    .col-4{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .col-5 {
+        grid-template-columns: repeat(5,1fr);
+        gap: 1rem;
+        row-gap: 1rem;
+    }
+    .col-6 {
+        grid-template-columns: repeat(6,1fr);
+    }
+}

@@ -1,0 +1,30 @@
+.popuplabel {
+    font-size: 4rem;
+    position: fixed;
+    bottom: 1rem;
+    right: .5rem;
+}
+
+.popuplabel:hover {
+    cursor: pointer;
+}
+
+.popupinput{
+    display: none;
+}
+
+#togglepopup:checked ~ .toplabel {
+    bottom: -1rem;
+    transition: all .5s ease-in;
+}
+
+.toplabel {
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    right: 3rem;
+    bottom: -45rem;
+    z-index: 99;
+    padding: 2rem;
+    transition: all .5s ease-in;
+}
