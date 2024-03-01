@@ -14,9 +14,10 @@
 	--nc-lk-tx: #FFFFFF;
 	--nc-ac-1: #f86f4c;
 	--nc-ac-tx: #0C4047;
-    --nc-fm-1: #ff2525;
+    --nc-fm-1: #b81d3c;
     --nc-fm-bg-1: #f37373;
     --nc-fm-bg-2: #f38282;
+	--nc-fm-nav-bg-3: #be1f1f;
 
 	/* Dark theme */
 	--nc-d-tx-1: #ffffff;
@@ -28,10 +29,11 @@
 	--nc-d-lk-2: #fa8989;
 	--nc-d-lk-tx: #FFFFFF;
 	--nc-d-ac-1: #ef9c83;
-	--nc-d-ac-tx: #FFFFFF;
-    --nc-d-fm-1: #e65073;
+	--nc-d-ac-tx: #ff205b;
+    --nc-d-fm-1: #ff0055;
     --nc-d-fm-bg-1: #99090b;
     --nc-d-fm-bg-2: #be1f1f;
+	--nc-d-fm-nav-bg-3: #780709;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -49,6 +51,7 @@
         --nc-fm-1: var(--nc-d-fm-1);
         --nc-fm-bg-1: var(--nc-d-fm-bg-1);
         --nc-fm-bg-2: var(--nc-d-fm-bg-2);
+		--nc-fm-nav-bg: var(--nc-d-fm-nav-bg-3);
 	}
 }
 

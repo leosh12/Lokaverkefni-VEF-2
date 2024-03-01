@@ -1,5 +1,5 @@
 .topmenu {
-    background-color: var(--nc-lk-1);
+    background-color: var(--nc-fm-nav-bg);
     display: flex;
     flex-flow: column;
     position: fixed;
